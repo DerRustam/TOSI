@@ -1,0 +1,81 @@
+**That's how bold looks like**
+
+__How also bold looks like__
+
+*That's how italic looks like*
+
+_How also italic looks like_
+
+First level header: An onion
+====================
+Second level header: An apple
+---------------------------------------
+### Third level header: An pinnacle
+#### Fourth level header: An strawberry
+
+**Line ends with 2+ spaces:**    
+First string  
+Second one
+
+There is a list:
++ i1
++ i2
++ i3
+    * j1
+    * j2
+    
+How ordered items looks like:
+1. i1
+2. i2
+3. i3  
+
+Image:
+![jupyter](https://i1.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image3-1.png?fit=756%2C277&ssl=1) 
+
+[Reference style link][1]
+Image with reference: 
+![alt text][logo]
+
+[logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/250px-Jupyter_logo.svg.png "Jupiter logo"
+
+
+[1]: https://jupyter.org/
+
+Literaly nobody:
+    > "Do ya know about zero-day"
+    
+<sup>Superscript<sup>
+<sub>Subscript<sub>
+
+
+~~Actually nobody~~
+
+R code form:
+```{r}
+match(x, table, nomatch = 0) > 0
+x %in% table
+```
+
+verbatim / preformatted code form:
+```
+public static void main(String[] args) {
+        int first = 10;
+        int second = 20;
+        int sum = first + second;
+        
+        System.out.println("The sum is: " + sum);
+    }
+```
+
+Pifagor theory: 
+$c^2 = a^2 + b^2$
+
+Display f: 
+$$c^2 = a^2 + b^2$$
+
+*Table*  
+
+First Header | Second Header
+------------ | -------------
+(1,1) | (1,2)
+(2,1) | (2,2)  
